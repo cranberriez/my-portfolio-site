@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    background-image: url("/static/hero-wallpaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    aspect-ratio: 4/3;
+
+    width: 100%;
+}
